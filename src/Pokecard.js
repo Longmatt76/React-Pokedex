@@ -7,8 +7,8 @@ const Pokecard = (props) => {
       <img className='PokeCard-image'
         src={
           `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${props.id}.png`} alt=''></img>
-      <h5 className='Pokecard-data'>Type: {props.type}</h5>
-      <h5 className='Pokecard-data'>EXP: {props.exp}</h5>
+      <h5 className='PokeCard-data'> <span> Type:</span> {props.type}</h5>
+      <h5 className='PokeCard-data'><span>EXP:</span>  {props.exp}</h5>
     </div>
   );
 };
