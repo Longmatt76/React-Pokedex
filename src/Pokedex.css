@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: darkblue;
+  border: 1px solid black;
+  padding: auto;
+  background-color: rgb(125, 248, 248);
+}
+
+
+
+.Pokedex-cards {
+display: inline-block;
+background-color: aliceblue;
+}
